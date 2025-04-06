@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-main{
+    background-color: #00b207;
+}
+
+.bg-black-main{
+    background-color: #333;
+    color: #999;
+}
+
+.text-main{
+    color: #00b207;
+}
+
+.text-orange{
+    color: #ff8a00;
+}
+
+.bg-orange{
+    background-color: #ff8a00;
+}
+
+.big-bannar{
+    background-image: url(./images/bannar-1big.jpeg);
+}
+
+.small-bannar-1{
+    background-image: url(./images/BG.png);
+}
+
+.small-bannar-2{
+    background-image: url(./images/BG\ \(1\).png);
+}
+
+.type-1{
+    background-image: url(./images/type1.png);
+}
+
+.type-2{
+    background-image: url(./images/type2.png);
+}
+
+.type-3{
+    background-image: url(./images/type3.png);
+}
+
+.w-15{
+    width: 15%;
+}
+
+.h-100{
+    height: 560px;
+    font-family:sans-serif;
+}
+
+.discount-container{
+    background-image: url(./images/discount-bg.jpeg);
+    height: 300px;
+    
+}
+
+.insta-1{
+    background-image: url(images/insta1.png);
+    height: 150px;
+}
+
+.insta-2{
+    background-image: url(images/insta2.png);
+    height: 150px;
+}
+
+.insta-3{
+    background-image: url(images/insta3.png);
+    height: 150px;
+}
+
+.insta-4{
+    background-image: url(images/insta4.png);
+    height: 150px;
+}
+
+.insta-5{
+    background-image: url(images/insta5.png);
+    height: 150px;
+}
+
+.insta-6{
+    background-image: url(images/insta6.png);
+    height: 150px;
+}
+/* contact-css */
+.contact-main-header{
+    background-image: url(/images/contact-header.png);
+    height: 100px;
+}
+
+.contact-main-map{
+    background-image: url(/images/contactmap.png);
+    height: 300px;
+}
+/* blog-css */
+.blog-main-header {
+    background-image: url(/images/blogheader.png);
+    height: 100px;
+}
+
+.blog-gallery{
+    height: 80px;
+}
+
+.single-blog-main-header{
+    background-image: url(/images/single.\ blog.png);
+    height: 100px;
+}
+@media screen and (max-width:768px) {
+    .w-15{
+        width: 30%;
+    }
+    .contact-main-header,
+    .blog-main-header,
+    .contact-main-map,
+    .single-blog-main-header{
+        display: none;
+    }
+}
